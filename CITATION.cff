@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: software
+title: "Deterministic State Reduction via Golden-Ratio Polynomials for Low-Latency Quantum Boundary Commitments"
+authors:
+  - family-names: Sanders
+    given-names: Jacarri
+    affiliation: "Even The Odds Foundry LLC / Kerna-Ledger Engineering Group"
+    email: eventheoddsfoundry@gmail.com
+repository-code: "https://github.com/jabrahns-source/phi-boundary-commitments"
+url: "https://github.com/jabrahns-source/phi-boundary-commitments"
+abstract: >-
+  Classical-to-quantum interface architectures suffer from computational overhead and non-deterministic timing drift when translating continuous quantum phase dynamics into classical registers. This work presents a deterministic algebraic engine that bypasses FPUs by exploiting the minimal polynomial of the golden ratio. Any Fibonacci-weighted state sequence reduces to a two-dimensional integer state (A, B) over native u64 registers. A randomized commitment with 256-bit blinding salt is proven computationally binding and information-theoretically hiding under the Random Oracle Model. Gate-level correctness is formally verified with Z3 bit-vector SMT.
+keywords:
+  - Quantum Cryptography
+  - Golden Ratio
+  - Formal Verification
+  - SMT Solvers
+  - ALU Bypass
+  - Computational Hiding
+  - Hybrid Games
+  - Integer Pipeline
+  - Deterministic Compute
+license: MIT
+version: "1.0.0"
+date-released: "2026-07-20"
