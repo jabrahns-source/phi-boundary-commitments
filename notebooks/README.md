@@ -1,17 +1,16 @@
 # Notebooks
 
-`../Untitled62.ipynb` is the historical Colab/research notebook for phi-boundary
-commitments. It was never renamed during the first import.
+## Named notebook (use this)
 
-## Canonical code (use these, not the notebook, for CI)
+`notebooks/phi_boundary_commitments.ipynb` — executable orientation notebook that imports `src/phi_commitment.py`.
+
+## Historical dump
+
+`../Untitled62.ipynb` is the original Colab/research import. It was never renamed on first landing. Keep it until a maintainer decides a byte-identical move is worth the git history rewrite.
+
+## Canonical code (CI / proofs — not the notebooks)
 
 - `src/phi_commitment.py`
 - `tests/test_phi.py`
 - `verification/verify_*.py`
 - `benchmarks/colab_benchmark.py`
-
-## Rename debt
-
-Preferred name: `notebooks/phi_boundary_commitments.ipynb`.
-Do not delete Untitled62.ipynb until a byte-identical copy lives under `notebooks/`.
-This file is the pointer so the tree is not mysterious.
